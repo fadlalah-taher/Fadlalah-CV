@@ -1,0 +1,150 @@
+/*{
+    box-sizing: border-box;
+}*/
+body {
+	margin: 0;
+	padding: 3rem 1rem;
+	min-height: 100vh;
+	background-color: #9a9a9a;
+}
+.body {
+	margin: 0 auto;
+	max-width: 70rem;
+	background-color: #737373;
+	display: flex;
+	box-shadow: 0px 0px 15px 4px #b3b3b3;
+}
+.intro {
+	flex: 0 0 250px;
+	background-color: #f8f8f8;
+	box-shadow: 5px 0px 15px 0px #b3b3b3;
+	/*z-index: 5;*/
+}
+.profile {
+	position: relative;
+	background-color: #4682bf;
+	padding: 2rem 1rem;
+	margin-bottom: 50px;
+	text-align: center;
+	/*user-select: none;*/
+    
+}
+
+.photo img {
+	width: 80%;
+	border-radius: 50%;
+}
+.bio .name {
+	font-size: 1.5rem;
+	text-align: center;
+	color: black;
+	margin: 0;
+	margin-top: 1rem;
+}
+
+.intro-section {
+	padding: 0 1rem;
+	color: black;
+}
+.intro-section .title {
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about .paragraph {
+	text-align: justify;
+}
+.info-section {
+	margin: 1rem 0;
+}
+.info-section span {
+	position: relative;
+	transition: all 0.3s;
+}
+.info-section i {
+	color: black;
+	width: 25px;
+	height: 25px;
+}
+.detail {
+	flex: 1 0 0;
+	background-color: white;
+	padding: 2rem;
+}
+
+section{
+    margin-left: 1%;
+}
+section h1{
+    font-size: 35px;
+}
+.fa .fa-circle{
+    font-size:48px;
+    color: #4682bf;
+}
+
+table{
+    border: 2px solid;
+    border-color: rgb(158, 158, 189);
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+th{
+    background-color: #4682bf;
+    font-size: 22px;
+}
+p{
+    font-size: 20px;
+}
+
+table thead{
+    font-size: 25px;
+}
+.lang_name td{
+    font-size: 25px;
+}
+.dot{
+    font-size: 110%;
+}
+ul {
+    list-style: none;
+}
+ul li::before {
+    content: "\2022";
+    color: #154f89;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 25px;
+  }
+.img{
+    margin-left: 30%;
+    width: 30%;
+}
+.title-icon {
+	display: inline-flex;
+	padding: 0.5rem;
+	margin-right: 1rem;
+}
+.title-icon i {
+	color: #154f89;
+	line-height: 1rem;
+	font-size: 1rem;
+	text-align: center;
+
+}
+h1{
+    display: inline-flex;
+}
+.hr{
+    border:none;
+    height: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: -5%;
+    border-bottom: 1px solid #154f89;
+    box-shadow: 0 20px 20px -20px #154f89;
+    
+}
+
