@@ -146,5 +146,49 @@ h1{
     border-bottom: 1px solid #154f89;
     box-shadow: 0 20px 20px -20px #154f89;
     
+}/*
+.container{
+	display: flex;
+}*/
+.container {
+	display: flex;  
+	flex-flow: row wrap;
+	font-weight: bold;
+	text-align: center; 
+  }
+  
+.container > * {
+	padding: 10px;
+	flex: 1 100%;
+  }
+  
+.header-lan {
+	background: #4682bf;
+	font-size: 25px;
+  }
+.sub-lang-name {
+	text-align: left;
+	/*background: deepskyblue;*/
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+  }
+
+aside{
+	display: flex;
+	flex-direction: row;
+	
+	flex-flow: wrap;
 }
+.lang-photo > img.img{
+	  width: 5%;
+	  margin-left: 14%;
+}  
+.lang-photo > img.img.img1{
+	margin-left: 0%;
+}
+
+  
 
