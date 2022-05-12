@@ -2,14 +2,14 @@ body {
 	margin: 0;
 	padding: 3rem 1rem;
 	min-height: 100vh;
-	background-color: #9a9a9a;
+	background-color: #6290be;/**#9a9a9a;*/
 }
 .body {
 	margin: 0 auto;
 	max-width: 70rem;
-	background-color: #737373;
+	/*background-color: #737373;*/
 	display: flex;
-	box-shadow: 0px 0px 15px 4px #b3b3b3;
+	box-shadow: 0px 0px 15px 4px white;/*#b3b3b3;*/
 }
 .intro {
 	flex: 0 0 250px;
@@ -20,6 +20,7 @@ body {
 .profile {
 	position: relative;
 	background-color: #4682bf;
+	
 	padding: 2rem 1rem;
 	margin-bottom: 50px;
 	text-align: center;
